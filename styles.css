@@ -1,0 +1,168 @@
+*,
+*:after,
+*:before {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: segoe ui light;
+	margin: 8px;
+	border: 1px solid black;
+	width: calc(8.5in + 2px);
+	padding: 0.3in 0.32in;
+	height: calc(11in + 2px);
+	display: flex;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+h1 {
+	color: rgb(214, 12, 50);
+	font-size: 2.28em;
+}
+
+#page-container {
+	flex: 1;
+	overflow: hidden;
+}
+
+#name {
+	display: inline;
+}
+
+#contact {
+	table-layout: fixed;
+	color: #3e3e3e;
+	font-size: 0.8em;
+	width: 100%;
+	border: none;
+	margin: 8px 0px 2px 0px;
+}
+
+h2 {
+	color: rgb(214, 12, 50);
+	font-size: 1.35em;
+}
+
+.sectionHeader {
+	margin-top: 10px;
+	margin-bottom: -3px;
+}
+
+#courseInfo {
+	float: right;
+}
+
+.rightAlign {
+	float: right;
+}
+
+.section {
+	color: #3e3e3e;
+}
+
+h3 {
+	font-size: 1em;
+	font-family: segoe ui;
+}
+
+.subSectionHeader {
+	margin-top: 8.5px;
+}
+
+.subSections {
+	list-style-type: none;
+}
+
+/*regular text*/
+div {
+	font-size: 1em;
+}
+
+.projectTools,
+.lighter {
+	font-weight: lighter;
+}
+
+.lighter {
+	/*font-style: italic;*/
+}
+
+.skillList {
+	font-family: segoe ui light;
+	font-weight: lighter;
+}
+
+.sub2SectionHeader {
+	display: inline;
+}
+
+.sub2Sections {
+	list-style-type: disc;
+	margin-left: 18px;
+}
+
+.sub2Sections > li {
+	margin-top: 3px;
+}
+
+.sub2SectionBullets {
+	list-style-type: none;
+	margin-left: 1.3em;
+	font-size: 0.95em;
+}
+
+.sub2SectionBullets > li {
+	margin-top: 0.1em;
+}
+
+.sub2SectionBullets > li:before {
+	content: "•";
+	padding-right: 5px;
+	margin-left: -0.7em;
+}
+
+.boldSkills {
+	font-weight: normal;
+	font-size: 1em;
+}
+
+.inlineContainer {
+	display: flex;
+}
+
+.col1 {
+	width: 53%;
+}
+
+.col2 {
+	flex: 1;
+}
+
+.award-date {
+	float: right;
+	margin-right: 80px;
+}
+
+.lpadding {
+	margin-left: 2px;
+}
+
+@media print {
+	body {
+		margin: 0;
+		border: none;
+		height: 11in;
+		width: 8.5in;
+	}
+}
+
+@page {
+	size: 8.5in 11in;
+	margin: 0;
+}

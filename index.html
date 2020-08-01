@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Matthew May - Resume</title>
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" >
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <div id="page-container">
+    <div id="header">
+      <h1 id="name">Matthew May</h1>
+      <h2 id="courseInfo">Computer Science | University of Waterloo</h2>
+      <table id="contact">
+        <th id="phone"><i class="fa fa-phone-square"></i> +44 752 376 0291</th>
+        <th id="email"><a href="mailto:mjcmay@uwaterloo.ca"><i class="fa fa-envelope"></i> </a><a href="mailto:mjcmay@uwaterloo.ca">mjcmay@uwaterloo.ca</a></th>
+        <th id="github"><a href="https://github.com/matthewjmay"><i class="fa fa-github"></i> </a><a href="https://github.com/matthewjmay">/matthewjmay</a></th>
+        <th id="linkedin"> <a href="https://www.linkedin.com/in/mjcmay/"><i class="fa fa-linkedin-square"></i></a></i> <a href="https://www.linkedin.com/in/mjcmay/">/mjcmay</a></th>
+      </table>
+    </div>
+    <hr id="headerDivider">
+    <div id="col1">
+      <div class="section" id="projects">
+        <h2 class="sectionHeader">Skills</h2>
+        <ul class="subSections">
+          <li>
+            <h3 class="subSectionHeader">Languages:  <span class="skillList lpadding">C++, Python, Go, C, SQL, JavaScript, Bash</span></h3>
+          </li>
+          <li>
+            <h3 class="subSectionHeader">Tools and Frameworks:  <span class="skillList lpadding">Kafka, Hive, Airflow, Keras, Pandas, NumPy, Neo4j, Bazel, Git</span></h3>
+          </li>
+        </ul>
+      </div>
+      <div class="section" id="summary">
+        <h2 class="sectionHeader">Experience</h2>
+        <ul class="subSections">
+          <li>
+            <h3 class="subSectionHeader">Citadel Securities <span class="lighter">&mdash; Software Engineer, Systematic Trading Technology</span><span class=rightAlign>Summer 2019</span></h3>
+            <ul class="sub2Sections">
+              <li>
+                <div class="sub2SectionHeader">Implemented a distributed, fault tolerant, and scalable real-time order reporting system with exactly-once delivery semantics by leveraging Apache Kafka</div>
+              </li>
+              <li>
+                <div class="sub2SectionHeader">Increased single partition throughput by <span class="stat">400%</span> by creating a benchmarking framework to identify bottlenecks, and implementing optimizations such as batching, using reader-writer locks, and reducing memory copies</div>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <h3 class="subSectionHeader">University of Waterloo <span class="lighter">&mdash; Research Assistant, Advisor: Semih Salihoglu </span> <span class=rightAlign>Winter 2019</span></h3>
+            <ul class="sub2Sections">
+              <li>
+                <div class="sub2SectionHeader">Developed a multithreaded graph algorithm in <span class="stat">C++14</span> to enumerate maximal cliques in a graph</div>
+              </li>
+              <li>
+                <div class="sub2SectionHeader">Implemented dynamic thread load balancing by storing search subtree nodes on a shared thread-safe stack</div>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <h3 class="subSectionHeader">Wish <span class="lighter">&mdash; Data and Relevance Engineer, Search and Recommendation Team </span><span class=rightAlign>Fall 2018</span></h3>
+            <ul class="sub2Sections">
+              <li>
+                <div class="sub2SectionHeader">Improved product quality by finding popular merchandise substitutes using k-nearest neighbour search in product embedding vector space</div>
+              </li>
+              <li>
+                <div class="sub2SectionHeader">Reduced product exploration latency by over <span class="stat">25ms</span>, by parallelizing Solr search queries using a Go microservice</div>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <h3 class="subSectionHeader">Wish<span class="lighter"> &mdash; Software Engineer, Product Web Team</span><span class=rightAlign>Winter 2018</span></h3>
+            <ul class="sub2Sections">
+              <li>
+                <div class="sub2SectionHeader">Reduced Wish's desktop website average time to DOM interactive by over <span class="stat">25%</span> by rewriting key pages in React and Redux, and implementing features such as service worker caching, code splitting, and lazy loading</div>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <h3 class="subSectionHeader">DF/Net Software ULC <span class="lighter">&mdash; Software Developer </span><span class=rightAlign>Summer 2017</span></h3>
+            <ul class="sub2Sections">
+              <li>
+                <div class="sub2SectionHeader">Implemented customizable web-based and XLSX reports using C++, Qt5, and d3.js</div>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="section" id="projects">
+        <h2 class="sectionHeader">Personal Projects</h2>
+        <ul class="subSections">
+          <li>
+            <h3 class="subSectionHeader">Insincere Questions Classifier <span class="lighter">&mdash; Keras, Pandas, NumPy</span><span class=rightAlign></span></h3>
+            <ul class="sub2Sections">
+              <li>
+                <div class="sub2SectionHeader">Developed a model to identify misleading questions by ensembling CNNs and LSTMs
+              </li>
+              <li>
+                <div class="sub2SectionHeader">Improved F1 score by leveraging multiple source word embeddings to create meta-embeddings
+              </li>
+            </ul>
+          </li>
+          <li>
+            <h3 class="subSectionHeader">
+              Basic Compiler and Assembler <span class="lighter">&mdash; C++, MIPS assembly<span class="lighter"> <span class=rightAlign></span></h3>
+            <ul class="sub2Sections">
+              <li>
+                <div class="sub2SectionHeader">Built a compiler capable of compiling a subset of C into MIPS assembly</div>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <h3 class="subSectionHeader">Sketchy <span class="lighter"> &mdash; Node.js, Express, Firebase</span><span class=rightAlign>Hack the North 2017</span></h3>
+            <ul class="sub2Sections">
+              <li>
+                <div class="sub2SectionHeader">Won <i style="font-family: segoe ui light;">Best use of Cymon API</i> award for building a Chrome extension which detects malicious social media links</div>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="section" id="education">
+        <h2 class="sectionHeader">Education</h2>
+        <ul class="subSections">
+          <li>
+            <h3 class="subSectionHeader">University of Waterloo, Candidate for Bachelor of Computer Science<span class="rightAlign">2016-2021</span></h3>
+            <ul class="sub2Sections">
+              <li>
+                <div class="sub2SectionHeader"><span class="stat">3.99 GPA</span>, Dean's Honours List (all terms)</div>
+              </li>
+              <li>
+                <div class="sub2SectionHeader">Relevant courses: Algorithms, Data Structures and Data Management, Operating Systems</div>
+              </li>
+            </ul>
+          </li>
+<!--           <li>
+            <h3 class="subSectionHeader">Machine Learning | Stanford University | Coursera MOOC <span class="rightAlign">Summer 2018</span></h3>
+          </li> -->
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
